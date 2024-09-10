@@ -107,7 +107,6 @@ def synthesizer(path, output, font_folder):
 
     df.to_csv(os.path.join(output, 'ground_truth.csv'), index=False)
 
-synthesizer("/home/bavercru/Documents/GhentCDH_Printed_Tesseract/XML", "/home/bavercru/Documents/Visual Code - workspace/SyntethicDataGenerator/SyntheticData", "/home/bavercru/Documents/Visual Code - workspace/SyntethicDataGenerator/custom_fonts/ttf")
         
 
 
